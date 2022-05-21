@@ -1,0 +1,130 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usetheme{CambridgeUS}
+
+\title{Description for SDF project}
+\author{Team-21}
+\date{\today}
+%do something about logo.
+
+\begin{document}
+\begin{frame}{Contributors}
+   \begin{enumerate}
+       \item G HARSHA VARDHAN REDDY
+       \item GOLLAPUDI SASANK SRI VISHNU
+       \item JUPALLY SRIRAM
+       \item KUMMITHA JHANAVI
+   \end{enumerate} 
+\end{frame}
+\begin{frame}
+    \titlepage 
+\end{frame}
+\section{Introduction}
+\begin{frame}{Introduction}
+\begin{itemize}
+    \item This is a description of the functions of the Facebook clone, which we are trying to include in our project.
+    \item Facebook is one of the oldest  social media platforms, developed by mark zuckerberg. 
+\end{itemize}
+\end{frame}
+\section{Login portal}
+\begin{frame}{Login portal}
+\begin{itemize}
+    \item An existing user can login into the platform by submitting their email address (or) mobile number and password.
+    \item A New user can sign up to the platform by entering his/her email address (or) mobile number and creating a password. He/She must verify the email address before logging in if he/she is signing up through email.
+    \item A verification link will be delivered to them through email address, and SMS. The link will open a new page that redirects to the login portal.   
+    \item An existing user can use the "forgot password" option if he/she have forgotten the password. A mail with the appropriate link will be delivered to them. After the process the web page will redirect to login portal. 
+    \end{itemize}
+\end{frame}
+\section{Home page}
+\begin{frame}{Home page}
+
+
+\begin{enumerate}
+    \item  Home page contains the feed (photos and gifs) in the middle  section. 
+    \item To the left, following options are present.
+    \begin{itemize}
+    \item Username.
+    \item Friend requests.
+    \item messages.
+    \item groups.
+    \item settings.
+    \end{itemize}
+\item At the top left there is a search bar which search for the username you typed in.
+\item At the top right there are buttons for the following.
+\begin{itemize}
+    \item Home
+    \item profile
+    \item messages
+    \item groups
+    \item notifications 
+\end{itemize}
+
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{ Profile }
+\begin{itemize}
+    \item If user clicked on the profile button in the top right or the username option in the left, he/she lands on their profile.
+    \item The page contains user's profile photo and the following options.
+    \begin{enumerate}
+        \item posts
+        \item bio
+        \item friends
+        \item saved
+    \end{enumerate}
+    \item The posts contain all of user's previous posts and there is an edit option through which user can remove  post.
+    \item bio contains the info the user made public about him. user can edit it. 
+    \item friends contain the list of all  friends of the user.
+    
+\end{itemize}
+\end{frame}
+\begin{frame}{Feed}
+\begin{itemize}
+    \item Feed consists of the posts uploaded by  friends, followed Pages, and groups joined sorted by how recent they are.
+    \item every post has options of like, share and comment.
+    \item If user share any post, the post appears in feed of his/her friends
+    with a tag "shared by".
+    \item user can save a post of the feed by clicking the save option through
+    vertical ellipsis.
+    \item user can block the feed of a particular account still keeping that account as a friend.
+    
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Groups}
+\begin{itemize}
+   \item Groups is a place where all the users with a common interest  can be in touch in an effective manner.
+    \item A user can create a group if he/she has more than ten friends.
+    \item The creator of the group will become admin by default. He can handover it to any member if that member accepts it. The member can look for it in notifications icon present at the top right of home page.
+    \item  Admin of the group can remove anybody and can block a group member from posting anything in group.
+    \item Admin can remove particular posts from the group posted by a member.
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Stories}
+    \begin{itemize}
+        \item Stories are short videos or photos that will appear in the stories feed at the top of user's feed in home page. Stories are only visible for 24hours
+        \item There is an option to create your own story to left side of the story feed.
+        \item By default, the user's story is visible in all friends feed.
+        User can change that by choosing "Show stories to close friends only"  option in settings.
+        \item A user can reply to another stories either in text or by emojis. A user can like other stories too.
+        \item If a user has an active story, the user's profile photo is circumscribed in a blue circle. If user clicks on the profile pic two options will pop up. 
+        \begin{enumerate}
+            \item view story.
+            \item view profile picture.
+        \end{enumerate}
+        \end{itemize}
+\end{frame}
+\begin{frame}{Miscellaneous}
+    \begin{itemize}
+        \item In search results, the posts of an account are visible if it is public. If it is private,only Username, profile pic, and the bio are visible.  
+        \item  Users can chat with each other  or together in chat groups.
+        \item  User can create a page and follow existing pages. If user follows a page their posts will be visible in the feed.
+        
+    \end{itemize}
+\end{frame}
+
+\end{document}
